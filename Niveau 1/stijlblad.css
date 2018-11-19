@@ -1,0 +1,91 @@
+html{
+	font-family: "Comic Sans MS";
+}
+
+#current {
+	background:#525252;
+}
+
+#headerspace {
+	background: grey;
+	margin-left:20%;
+	margin-right:20%;
+	border-radius: 25px;
+}
+
+.header {
+	background: grey;
+	position: relative;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.headerbutton {
+	border: none;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 25px;
+    background: grey;
+}
+
+.headercontent a:hover {
+	background-color: #525252;
+}
+
+.headercontent {
+    display: none;
+    background-color: grey;
+    position: absolute;
+    
+}
+
+.header:hover .headercontent{
+	background-color: grey;
+}
+
+.headercontent a {
+    color: black;
+    padding: 10px 15px;
+    display: block;
+}
+
+.header:hover .headercontent {
+	display: block;
+}
+
+.content{
+	margin-left:20%;
+	margin-right:20%;
+  	border-radius: 25px;
+  	background: #e2e2e2;
+  	height: 100%;
+  	margin-top:2%;
+  	padding: 2px;
+  	border: 2px;
+  	margin-bottom:5%;
+}
+#text{
+	margin: 2%;
+}
+#right-text{
+	float:right;
+}
+#onderwerp{
+	width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical
+}
+
+#formulierknop{
+	border: none;
+    padding: 15px;
+    border-radius: 13px;
+    background: grey;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
